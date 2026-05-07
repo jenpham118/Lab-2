@@ -17,7 +17,7 @@ def calc_average(numList):
     for number in numList:
         sum += float(number)
 
-    return round((sum / len(numList)), 2)
+    return sum / len(numList)
 
 
 def find_min_max(numList):
